@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -412,7 +412,7 @@
     "top_level_sheets": [
       {
         "filename": "USB-C_3.2gen1.kicad_sch",
-        "name": "Root",
+        "name": "Main",
         "uuid": "d3213dd5-4179-4001-95f6-ec74c0d8f8ed"
       }
     ],
@@ -422,7 +422,35 @@
   "sheets": [
     [
       "d3213dd5-4179-4001-95f6-ec74c0d8f8ed",
-      "Root"
+      "Main"
+    ],
+    [
+      "2f47c3db-d6e6-45ef-ab94-b0eae5f0b72a",
+      "Block Diagram"
+    ],
+    [
+      "3e398fdc-1593-480c-a6b2-1cbff8b90dcb",
+      "POWER"
+    ],
+    [
+      "17969bed-c5f0-4add-8dba-a477a6fcae7c",
+      "USB-C MUX"
+    ],
+    [
+      "f5cb6dae-f4e5-4740-8d04-47b64833c5c2",
+      "USB HUB"
+    ],
+    [
+      "b0a9cc29-31f0-4a83-bd72-85cc3fbf78e2",
+      "HDMI"
+    ],
+    [
+      "373a74f5-fd9e-49bb-a274-b26fbd7325a8",
+      "ETHERNET"
+    ],
+    [
+      "80a22beb-528f-4fff-8fe7-88006ebfcd3d",
+      "SD"
     ]
   ],
   "text_variables": {},
