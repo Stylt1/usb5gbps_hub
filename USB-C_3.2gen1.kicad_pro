@@ -416,7 +416,7 @@
         "uuid": "d3213dd5-4179-4001-95f6-ec74c0d8f8ed"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1-2,R4,C8-18,#PWR8-14,J2,U1,U6-9",
     "variants": []
   },
   "sheets": [
@@ -442,7 +442,7 @@
     ],
     [
       "b0a9cc29-31f0-4a83-bd72-85cc3fbf78e2",
-      "HDMI"
+      "DisplayPort"
     ],
     [
       "373a74f5-fd9e-49bb-a274-b26fbd7325a8",

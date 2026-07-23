@@ -9,7 +9,7 @@
 		(date "2026-07-21")
 	)
 	(lib_symbols)
-	(text "HDMI"
+	(text "DisplayPort"
 		(exclude_from_sim no)
 		(at 214.63 85.09 0)
 		(effects
@@ -380,7 +380,7 @@
 			(color 72 72 72 1)
 		)
 		(uuid "b0a9cc29-31f0-4a83-bd72-85cc3fbf78e2")
-		(property "Sheetname" "HDMI"
+		(property "Sheetname" "DisplayPort"
 			(at 165.481 88.5346 0)
 			(hide yes)
 			(show_name no)
@@ -395,7 +395,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "hdmi.kicad_sch"
+		(property "Sheetfile" "displayport.kicad_sch"
 			(at 149.479 94.885 0)
 			(hide yes)
 			(show_name no)

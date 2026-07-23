@@ -36,19 +36,6 @@
 		(uuid "378cc690-e05f-41fb-9b7a-2562347e484f")
 	)
 	(rectangle
-		(start 153.797 55.372)
-		(end 187.325 77.724)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 194 194 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "57c953ea-b265-498c-9018-a5241a9d2705")
-	)
-	(rectangle
 		(start 87.63 24.13)
 		(end 157.226 46.228)
 		(stroke
@@ -101,8 +88,8 @@
 		(uuid "9035f92a-f1ea-4f07-9375-59062c6dff3e")
 	)
 	(rectangle
-		(start 211.963 56.642)
-		(end 240.157 75.438)
+		(start 153.797 57.15)
+		(end 201.168 75.946)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -125,18 +112,6 @@
 			(type none)
 		)
 		(uuid "b8aa9a2c-90ea-4ca3-a0a9-03d421bc5997")
-	)
-	(rectangle
-		(start 172.085 75.184)
-		(end 172.085 75.184)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "e46bf8a3-230e-4e0d-b8ee-4da336b03587")
 	)
 	(rectangle
 		(start 51.689 104.521)
@@ -242,19 +217,6 @@
 		)
 		(uuid "4655ecb5-87e1-4151-b448-d9c3f989b279")
 	)
-	(text "DP to"
-		(exclude_from_sim no)
-		(at 170.307 63.5 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 0 194 194 1)
-			)
-		)
-		(uuid "52e1d23e-83ca-4847-9463-090a145f8517")
-	)
 	(text "USB-A "
 		(exclude_from_sim no)
 		(at 67.818 138.684 0)
@@ -267,19 +229,6 @@
 			)
 		)
 		(uuid "531906ee-f4d8-4318-bbf4-cc667894204b")
-	)
-	(text "HDMI"
-		(exclude_from_sim no)
-		(at 170.307 70.866 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 194 194 0 1)
-			)
-		)
-		(uuid "6323da32-2663-4af4-a627-8716d63d93a7")
 	)
 	(text "Slot"
 		(exclude_from_sim no)
@@ -320,9 +269,9 @@
 		)
 		(uuid "73c1dc33-b9f1-4594-9082-2113841707cd")
 	)
-	(text "HDMI"
+	(text "DisplayPort"
 		(exclude_from_sim no)
-		(at 226.187 66.294 0)
+		(at 177.292 67.056 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -650,17 +599,6 @@
 	)
 	(polyline
 		(pts
-			(xy 211.074 66.04) (xy 188.214 66.04)
-		)
-		(stroke
-			(width 1.27)
-			(type solid)
-			(color 255 255 0 1)
-		)
-		(uuid "e099ff1a-58a1-4523-af12-cff3c82768a6")
-	)
-	(polyline
-		(pts
 			(xy 122.428 56.134) (xy 122.428 46.99)
 		)
 		(stroke
@@ -680,12 +618,6 @@
 		(uuid "15284fa5-5c1c-4ffd-a4f3-8d61c486be64")
 		(members "378cc690-e05f-41fb-9b7a-2562347e484f" "4655ecb5-87e1-4151-b448-d9c3f989b279"
 			"73c1dc33-b9f1-4594-9082-2113841707cd"
-		)
-	)
-	(group ""
-		(uuid "33690739-8f44-4fc1-afb9-affdf211253f")
-		(members "52e1d23e-83ca-4847-9463-090a145f8517" "57c953ea-b265-498c-9018-a5241a9d2705"
-			"6323da32-2663-4af4-a627-8716d63d93a7"
 		)
 	)
 	(group ""
