@@ -4053,6 +4053,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SEARCHING"
+		(exclude_from_sim no)
+		(at 383.794 100.584 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "d0b20948-5902-4ff6-87bd-1738ab48a6d6")
+	)
 	(junction
 		(at 199.39 90.17)
 		(diameter 0)
@@ -6576,7 +6588,7 @@
 		)
 		(uuid "dd4dc17d-d9e9-49e2-bf3e-bf29416b92af")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "VBUS2"
 		(shape input)
 		(at 55.88 27.94 0)
 		(effects
