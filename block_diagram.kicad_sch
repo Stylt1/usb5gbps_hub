@@ -10,8 +10,21 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 102.616 96.139)
-		(end 142.24 126.873)
+		(start 62.5384 51.435)
+		(end 92.0024 65.405)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 221 133 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2a753540-bb1f-4b82-aeef-323342ae09df")
+	)
+	(rectangle
+		(start 113.03 102.743)
+		(end 152.654 133.477)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -23,8 +36,8 @@
 		(uuid "2d386208-6caf-4c8b-bc59-794858834dd1")
 	)
 	(rectangle
-		(start 105.664 140.208)
-		(end 139.192 162.56)
+		(start 116.078 146.812)
+		(end 149.606 169.164)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -36,8 +49,8 @@
 		(uuid "378cc690-e05f-41fb-9b7a-2562347e484f")
 	)
 	(rectangle
-		(start 87.63 24.13)
-		(end 157.226 46.228)
+		(start 70.866 20.066)
+		(end 140.462 42.164)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -49,8 +62,8 @@
 		(uuid "5b4dbf26-d466-41ce-9f0d-44e3348fba26")
 	)
 	(rectangle
-		(start 211.963 116.586)
-		(end 245.491 138.938)
+		(start 222.377 123.19)
+		(end 255.905 145.542)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -62,8 +75,8 @@
 		(uuid "8511571e-02c2-4f1f-a819-1518f746afb1")
 	)
 	(rectangle
-		(start 51.689 78.359)
-		(end 81.153 92.329)
+		(start 62.103 84.963)
+		(end 91.567 98.933)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -75,8 +88,8 @@
 		(uuid "85484f0b-dd46-43e8-808b-f09e818f87dc")
 	)
 	(rectangle
-		(start 160.147 100.33)
-		(end 193.675 122.682)
+		(start 170.561 106.934)
+		(end 204.089 129.286)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -88,8 +101,8 @@
 		(uuid "9035f92a-f1ea-4f07-9375-59062c6dff3e")
 	)
 	(rectangle
-		(start 153.797 57.15)
-		(end 201.168 75.946)
+		(start 164.846 72.39)
+		(end 212.217 91.186)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -101,8 +114,21 @@
 		(uuid "b7ab07f7-c8f8-4265-a6ce-ff813db32781")
 	)
 	(rectangle
-		(start 51.562 131.318)
-		(end 81.026 145.288)
+		(start 95.758 49.022)
+		(end 117.856 67.056)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 194 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b88241e4-be78-4654-a08c-b033d27b4d0d")
+	)
+	(rectangle
+		(start 61.976 137.922)
+		(end 91.44 151.892)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -114,8 +140,8 @@
 		(uuid "b8aa9a2c-90ea-4ca3-a0a9-03d421bc5997")
 	)
 	(rectangle
-		(start 51.689 104.521)
-		(end 81.153 118.491)
+		(start 62.103 111.125)
+		(end 91.567 125.095)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -127,8 +153,8 @@
 		(uuid "e5c6ab12-5636-4890-b124-273afe07caad")
 	)
 	(rectangle
-		(start 108.839 56.896)
-		(end 136.017 76.2)
+		(start 119.888 72.136)
+		(end 147.066 91.44)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -140,8 +166,8 @@
 		(uuid "f0bab73f-70ee-4301-bdb4-98987d3de054")
 	)
 	(rectangle
-		(start 110.617 169.418)
-		(end 134.239 185.166)
+		(start 121.031 176.022)
+		(end 144.653 191.77)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -153,8 +179,8 @@
 		(uuid "f558f991-0f20-4971-a4a6-209e5051f695")
 	)
 	(rectangle
-		(start 211.963 82.296)
-		(end 245.491 104.648)
+		(start 222.377 88.9)
+		(end 255.905 111.252)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -167,7 +193,7 @@
 	)
 	(text "SD"
 		(exclude_from_sim no)
-		(at 228.727 123.19 0)
+		(at 239.141 129.794 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -180,7 +206,7 @@
 	)
 	(text "USB-A "
 		(exclude_from_sim no)
-		(at 67.945 111.887 0)
+		(at 78.359 118.491 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -193,7 +219,7 @@
 	)
 	(text "HUB"
 		(exclude_from_sim no)
-		(at 121.412 117.983 0)
+		(at 131.826 124.587 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -206,7 +232,7 @@
 	)
 	(text "LAN"
 		(exclude_from_sim no)
-		(at 122.682 154.94 0)
+		(at 133.096 161.544 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -219,7 +245,7 @@
 	)
 	(text "USB-A "
 		(exclude_from_sim no)
-		(at 67.818 138.684 0)
+		(at 78.232 145.288 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -232,7 +258,7 @@
 	)
 	(text "Slot"
 		(exclude_from_sim no)
-		(at 228.727 97.536 0)
+		(at 239.141 104.14 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -245,7 +271,7 @@
 	)
 	(text "Slot"
 		(exclude_from_sim no)
-		(at 228.727 132.334 0)
+		(at 239.141 138.938 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -258,7 +284,7 @@
 	)
 	(text "USB to"
 		(exclude_from_sim no)
-		(at 123.19 147.828 0)
+		(at 133.604 154.432 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -271,7 +297,7 @@
 	)
 	(text "DisplayPort"
 		(exclude_from_sim no)
-		(at 177.292 67.056 0)
+		(at 188.341 82.296 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -284,7 +310,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 121.158 105.791 0)
+		(at 131.572 112.395 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -297,7 +323,7 @@
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
-		(at 122.428 35.56 0)
+		(at 105.664 31.496 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -310,7 +336,7 @@
 	)
 	(text "MicroSD"
 		(exclude_from_sim no)
-		(at 228.727 88.9 0)
+		(at 239.141 95.504 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -323,7 +349,7 @@
 	)
 	(text "READER"
 		(exclude_from_sim no)
-		(at 176.149 116.586 0)
+		(at 186.563 123.19 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -334,9 +360,22 @@
 		)
 		(uuid "9f213a3e-265a-43ca-803a-87f95033e51c")
 	)
+	(text "USB-C\n"
+		(exclude_from_sim no)
+		(at 77.47 58.928 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(color 221 133 0 1)
+			)
+		)
+		(uuid "a1726322-ef2b-4f22-b2c6-43a781ddcf67")
+	)
 	(text "RJ45"
 		(exclude_from_sim no)
-		(at 122.301 177.546 0)
+		(at 132.715 184.15 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -349,7 +388,7 @@
 	)
 	(text "MUX"
 		(exclude_from_sim no)
-		(at 122.555 70.866 0)
+		(at 133.604 86.106 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -360,9 +399,34 @@
 		)
 		(uuid "c15c4e33-4023-432a-bbda-226253cfcaa0")
 	)
+	(text "PD"
+		(exclude_from_sim no)
+		(at 107.188 57.912 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 0 194 194 1)
+			)
+		)
+		(uuid "c2d0ee5e-abee-464c-b31b-819cd96fca0e")
+	)
+	(text "(PowerDelivery)"
+		(exclude_from_sim no)
+		(at 76.962 68.326 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d31e258a-fe46-402e-a344-5d1398f24ef3")
+	)
 	(text "USB-A "
 		(exclude_from_sim no)
-		(at 67.945 85.725 0)
+		(at 78.359 92.329 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -375,7 +439,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 122.555 63.246 0)
+		(at 133.604 78.486 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -388,7 +452,7 @@
 	)
 	(text "SD"
 		(exclude_from_sim no)
-		(at 176.276 108.458 0)
+		(at 186.69 115.062 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -401,7 +465,18 @@
 	)
 	(polyline
 		(pts
-			(xy 211.074 93.98) (xy 199.136 93.98)
+			(xy 95.25 58.928) (xy 92.71 58.928)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(uuid "02b72bc4-1c93-4607-b4d9-8471fc99d261")
+	)
+	(polyline
+		(pts
+			(xy 221.488 100.584) (xy 209.55 100.584)
 		)
 		(stroke
 			(width 1.27)
@@ -412,7 +487,18 @@
 	)
 	(polyline
 		(pts
-			(xy 159.512 111.506) (xy 140.716 111.506)
+			(xy 107.188 48.26) (xy 107.188 43.18)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(uuid "0ac4dba9-7679-4243-a150-aecd09a80687")
+	)
+	(polyline
+		(pts
+			(xy 169.926 118.11) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 1.27)
@@ -423,7 +509,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.473 122.301) (xy 92.837 122.301)
+			(xy 111.887 128.905) (xy 103.251 128.905)
 		)
 		(stroke
 			(width 1.27)
@@ -434,7 +520,7 @@
 	)
 	(polyline
 		(pts
-			(xy 210.947 127.635) (xy 199.009 127.635)
+			(xy 221.361 134.239) (xy 209.423 134.239)
 		)
 		(stroke
 			(width 1.27)
@@ -445,7 +531,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.009 127.635) (xy 199.009 114.173)
+			(xy 209.423 134.239) (xy 209.423 120.777)
 		)
 		(stroke
 			(width 1.27)
@@ -456,7 +542,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.567 122.301) (xy 91.567 139.827)
+			(xy 101.981 128.905) (xy 101.981 146.431)
 		)
 		(stroke
 			(width 1.27)
@@ -467,7 +553,7 @@
 	)
 	(polyline
 		(pts
-			(xy 87.757 138.557) (xy 77.851 138.557)
+			(xy 98.171 145.161) (xy 88.265 145.161)
 		)
 		(stroke
 			(width 1.27)
@@ -478,7 +564,7 @@
 	)
 	(polyline
 		(pts
-			(xy 152.908 66.548) (xy 137.16 66.548)
+			(xy 163.957 81.788) (xy 148.209 81.788)
 		)
 		(stroke
 			(width 1.27)
@@ -489,7 +575,7 @@
 	)
 	(polyline
 		(pts
-			(xy 87.884 86.36) (xy 77.978 86.36)
+			(xy 98.298 92.964) (xy 88.392 92.964)
 		)
 		(stroke
 			(width 1.27)
@@ -500,7 +586,18 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 102.616) (xy 92.964 102.616)
+			(xy 118.364 82.55) (xy 107.188 82.55)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(uuid "3f341889-3c13-4c31-9099-d6526f889025")
+	)
+	(polyline
+		(pts
+			(xy 112.014 109.22) (xy 103.378 109.22)
 		)
 		(stroke
 			(width 1.27)
@@ -511,7 +608,7 @@
 	)
 	(polyline
 		(pts
-			(xy 122.428 127.762) (xy 122.428 139.7)
+			(xy 132.842 134.366) (xy 132.842 146.304)
 		)
 		(stroke
 			(width 1.27)
@@ -522,7 +619,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.009 114.173) (xy 194.437 114.173)
+			(xy 209.423 120.777) (xy 204.851 120.777)
 		)
 		(stroke
 			(width 1.27)
@@ -533,7 +630,18 @@
 	)
 	(polyline
 		(pts
-			(xy 101.092 111.506) (xy 80.772 111.506)
+			(xy 107.188 82.804) (xy 107.188 68.072)
+		)
+		(stroke
+			(width 1.27)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(uuid "7c234194-2d37-41be-bb49-a22492e31ea7")
+	)
+	(polyline
+		(pts
+			(xy 111.506 118.11) (xy 91.186 118.11)
 		)
 		(stroke
 			(width 1.27)
@@ -544,7 +652,7 @@
 	)
 	(polyline
 		(pts
-			(xy 122.428 95.504) (xy 122.428 76.708)
+			(xy 132.842 102.108) (xy 132.842 93.218)
 		)
 		(stroke
 			(width 1.27)
@@ -555,7 +663,7 @@
 	)
 	(polyline
 		(pts
-			(xy 122.428 163.068) (xy 122.428 168.656)
+			(xy 132.842 169.672) (xy 132.842 175.26)
 		)
 		(stroke
 			(width 1.27)
@@ -566,7 +674,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.136 93.98) (xy 199.136 107.442)
+			(xy 209.55 100.584) (xy 209.55 114.046)
 		)
 		(stroke
 			(width 1.27)
@@ -577,7 +685,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.694 102.616) (xy 91.694 85.09)
+			(xy 102.108 109.22) (xy 102.108 91.694)
 		)
 		(stroke
 			(width 1.27)
@@ -588,7 +696,7 @@
 	)
 	(polyline
 		(pts
-			(xy 199.136 107.442) (xy 194.564 107.442)
+			(xy 209.55 114.046) (xy 204.978 114.046)
 		)
 		(stroke
 			(width 1.27)
@@ -599,7 +707,7 @@
 	)
 	(polyline
 		(pts
-			(xy 122.428 56.134) (xy 122.428 46.99)
+			(xy 132.588 71.628) (xy 132.588 42.672)
 		)
 		(stroke
 			(width 1.27)
@@ -661,6 +769,10 @@
 	(group ""
 		(uuid "8f72aeeb-2f65-4777-8de2-87b9e5f0e136")
 		(members "a4a953a6-2836-4594-85dd-f27be3a58f8f" "f558f991-0f20-4971-a4a6-209e5051f695")
+	)
+	(group ""
+		(uuid "ce2b6b7a-055b-40c1-be19-3870732ae228")
+		(members "2a753540-bb1f-4b82-aeef-323342ae09df" "a1726322-ef2b-4f22-b2c6-43a781ddcf67")
 	)
 	(group ""
 		(uuid "d05ad351-343a-4fbb-bb77-a703d1791d48")
