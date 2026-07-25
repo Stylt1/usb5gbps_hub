@@ -1587,6 +1587,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:TLV70012_SOT23-5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV70012_SOT23-5"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv700.pdf"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "200mA LDO Regulator Fixed Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV70012_SOT23-5_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV70012_SOT23-5_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:AP63200WU"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3793,6 +3987,12 @@
 		(uuid "016e2463-98ca-4c54-84d8-446259731a0c")
 	)
 	(junction
+		(at 140.97 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "140a616f-b7cd-442f-9482-58915096f5f2")
+	)
+	(junction
 		(at 95.25 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3803,6 +4003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d0214d3-6012-46d0-9d36-67cac63f4c85")
+	)
+	(junction
+		(at 163.83 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "366e303a-bbb3-421b-a9e3-55a273573353")
 	)
 	(junction
 		(at 267.97 59.69)
@@ -3821,6 +4027,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ce855b-0b10-4035-a051-5deda8493816")
+	)
+	(junction
+		(at 133.35 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fc38df1-146a-4d2f-8ef7-fc54ed1b83ed")
 	)
 	(junction
 		(at 33.02 55.88)
@@ -3857,6 +4069,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9ec6ed-757a-4a7a-b197-4829d9fc3ab6")
+	)
+	(junction
+		(at 152.4 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72cb1456-8b3b-4e75-99f4-33c707766a2f")
 	)
 	(junction
 		(at 105.41 52.07)
@@ -4186,6 +4404,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 135.89) (xy 163.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034d68d8-6b24-4a3d-8cb0-83270c199217")
+	)
+	(wire
+		(pts
 			(xy 157.48 77.47) (xy 153.67 77.47)
 		)
 		(stroke
@@ -4376,6 +4604,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 135.89) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab2bc23-a0e5-42fd-8f92-d0f521a330b3")
+	)
+	(wire
+		(pts
 			(xy 118.11 52.07) (xy 114.3 52.07)
 		)
 		(stroke
@@ -4466,6 +4704,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 146.05) (xy 152.4 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a94528-facd-4dfe-8152-8c5d179a2721")
+	)
+	(wire
+		(pts
 			(xy 157.48 54.61) (xy 153.67 54.61)
 		)
 		(stroke
@@ -4513,6 +4761,16 @@
 			(type default)
 		)
 		(uuid "2f9fcdbf-be4c-4ae1-98a6-678166e629fc")
+	)
+	(wire
+		(pts
+			(xy 163.83 135.89) (xy 160.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30be0862-afe3-4e6c-b937-4abed68f2cc4")
 	)
 	(wire
 		(pts
@@ -4726,6 +4984,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 146.05) (xy 152.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48412c7e-46cb-4070-b3ca-c730d1c67421")
+	)
+	(wire
+		(pts
 			(xy 82.55 58.42) (xy 82.55 55.88)
 		)
 		(stroke
@@ -4796,6 +5064,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 138.43) (xy 140.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d357930-525e-4e22-93f7-c7ee2623d895")
+	)
+	(wire
+		(pts
 			(xy 218.44 115.57) (xy 222.25 115.57)
 		)
 		(stroke
@@ -4843,6 +5121,16 @@
 			(type default)
 		)
 		(uuid "51d15875-61f0-47cd-a681-54cf559a492a")
+	)
+	(wire
+		(pts
+			(xy 140.97 135.89) (xy 144.78 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5231598c-bd7a-4a95-84ee-2595f327d243")
 	)
 	(wire
 		(pts
@@ -5236,6 +5524,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 135.89) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfc9466-7300-4776-aa44-396233b4ed3f")
+	)
+	(wire
+		(pts
 			(xy 48.26 60.96) (xy 49.53 60.96)
 		)
 		(stroke
@@ -5506,6 +5804,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 142.24) (xy 133.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87873f6-8e78-4538-bf82-2c24ab5f07cf")
+	)
+	(wire
+		(pts
 			(xy 218.44 72.39) (xy 222.25 72.39)
 		)
 		(stroke
@@ -5653,6 +5961,16 @@
 			(type default)
 		)
 		(uuid "b9a168c1-710c-4e97-8458-32e24a3cfc7b")
+	)
+	(wire
+		(pts
+			(xy 140.97 138.43) (xy 140.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3354e2-3c26-4290-ae90-8ef5f0baf960")
 	)
 	(wire
 		(pts
@@ -5876,6 +6194,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 142.24) (xy 163.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2daf218-6b46-45a1-aece-e5be551aa601")
+	)
+	(wire
+		(pts
 			(xy 105.41 52.07) (xy 105.41 57.15)
 		)
 		(stroke
@@ -5943,6 +6271,16 @@
 			(type default)
 		)
 		(uuid "dd4f7fcc-5bd2-4396-bd31-4764a9d6950a")
+	)
+	(wire
+		(pts
+			(xy 133.35 135.89) (xy 140.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd65760f-1c50-46ab-9a32-21b7fb47a4b8")
 	)
 	(wire
 		(pts
@@ -6016,6 +6354,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 135.89) (xy 133.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50d23e3-c2e4-4419-9c55-a0a1f9460527")
+	)
+	(wire
+		(pts
 			(xy 128.27 77.47) (xy 128.27 78.74)
 		)
 		(stroke
@@ -6053,6 +6401,16 @@
 			(type default)
 		)
 		(uuid "e838a59f-68a9-4712-98a3-cc9b71bf581a")
+	)
+	(wire
+		(pts
+			(xy 163.83 146.05) (xy 152.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafe6e05-3b7a-4967-b368-73966f6758ea")
 	)
 	(wire
 		(pts
@@ -6560,6 +6918,17 @@
 		)
 		(uuid "abfe9227-7ce6-4b68-9c4d-d8c0bd3ff482")
 	)
+	(hierarchical_label "1V2"
+		(shape input)
+		(at 170.18 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b59b4a8b-1387-402e-9fd9-061d4f841e15")
+	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 153.67 74.93 180)
@@ -6570,6 +6939,17 @@
 			(justify right)
 		)
 		(uuid "c4de33ca-cbd0-4186-9304-d0acf6bb30b0")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 130.81 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c501a7f7-9a4b-4bd9-a285-7c0e3e1cd86d")
 	)
 	(hierarchical_label "D1"
 		(shape input)
@@ -6821,6 +7201,87 @@
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 133.35 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05f2997c-aaa8-4c56-a87f-ee158de6b58b")
+		(property "Reference" "C52"
+			(at 135.89 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 135.89 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1760bc56-5aee-4d42-a646-95485d8107c8")
+		)
+		(pin "2"
+			(uuid "d1c9009e-7844-4a93-8d1b-650676be11a6")
+		)
+		(instances
+			(project "USB-C_3.2gen1"
+				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -7147,6 +7608,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
+		(at 152.4 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d01eeff-8385-4558-b68d-d90084871718")
+		(property "Reference" "U15"
+			(at 152.4 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV70012_SOT23-5"
+			(at 152.4 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 152.4 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv700.pdf"
+			(at 152.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"
+			(at 152.4 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33015809-40fd-4dc9-b92a-f4dd906104c9")
+		)
+		(pin "5"
+			(uuid "3bfa7274-25ad-4abd-a561-cedc619a758d")
+		)
+		(pin "4"
+			(uuid "3993e525-9eaa-47a7-83f6-b00beaa50e2b")
+		)
+		(pin "3"
+			(uuid "c3faff71-b5e2-4005-be00-5d92016f8766")
+		)
+		(pin "2"
+			(uuid "4656713f-5b1c-4be9-ba4a-7ead37835470")
+		)
+		(instances
+			(project "USB-C_3.2gen1"
+				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:AP63200WU")
 		(at 62.23 92.71 0)
 		(unit 1)
@@ -7233,6 +7784,87 @@
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.83 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "253e67f9-4c93-4e39-8259-a51e7724d679")
+		(property "Reference" "C53"
+			(at 166.37 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 166.37 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d87043ee-8abc-4853-a392-d750aa16f233")
+		)
+		(pin "2"
+			(uuid "027be0fd-3449-4997-b26f-2040448297ea")
+		)
+		(instances
+			(project "USB-C_3.2gen1"
+				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -10858,6 +11490,83 @@
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7ee3e6d-1dd4-4cd3-bc64-f89d2d08eba2")
+		(property "Reference" "#PWR050"
+			(at 152.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.464 150.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "766a53d9-2d62-47ba-8f4d-e8e27a6508c5")
+		)
+		(instances
+			(project "USB-C_3.2gen1"
+				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)

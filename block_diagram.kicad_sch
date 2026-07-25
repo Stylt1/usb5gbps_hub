@@ -75,19 +75,6 @@
 		(uuid "8511571e-02c2-4f1f-a819-1518f746afb1")
 	)
 	(rectangle
-		(start 62.103 84.963)
-		(end 91.567 98.933)
-		(stroke
-			(width 0.508)
-			(type solid)
-			(color 221 133 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "85484f0b-dd46-43e8-808b-f09e818f87dc")
-	)
-	(rectangle
 		(start 170.561 106.934)
 		(end 204.089 129.286)
 		(stroke
@@ -127,8 +114,8 @@
 		(uuid "b88241e4-be78-4654-a08c-b033d27b4d0d")
 	)
 	(rectangle
-		(start 61.976 137.922)
-		(end 91.44 151.892)
+		(start 62.484 120.904)
+		(end 91.948 134.874)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -140,8 +127,8 @@
 		(uuid "b8aa9a2c-90ea-4ca3-a0a9-03d421bc5997")
 	)
 	(rectangle
-		(start 62.103 111.125)
-		(end 91.567 125.095)
+		(start 62.611 102.997)
+		(end 92.075 116.967)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -204,9 +191,9 @@
 		)
 		(uuid "181979ea-7c9d-4419-bb3b-75cb27c782d1")
 	)
-	(text "USB-A "
+	(text "USB-C"
 		(exclude_from_sim no)
-		(at 78.359 118.491 0)
+		(at 77.47 110.49 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -245,7 +232,7 @@
 	)
 	(text "USB-A "
 		(exclude_from_sim no)
-		(at 78.232 145.288 0)
+		(at 78.74 128.27 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -424,19 +411,6 @@
 		)
 		(uuid "d31e258a-fe46-402e-a344-5d1398f24ef3")
 	)
-	(text "USB-A "
-		(exclude_from_sim no)
-		(at 78.359 92.329 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 221 133 0 1)
-			)
-		)
-		(uuid "d5905486-6bc7-4a8e-b3b3-c04a281e7152")
-	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 133.604 78.486 0)
@@ -509,17 +483,6 @@
 	)
 	(polyline
 		(pts
-			(xy 111.887 128.905) (xy 103.251 128.905)
-		)
-		(stroke
-			(width 1.27)
-			(type dot)
-			(color 255 255 0 1)
-		)
-		(uuid "20b66ea8-e42b-452b-8b2a-60ccbc024280")
-	)
-	(polyline
-		(pts
 			(xy 221.361 134.239) (xy 209.423 134.239)
 		)
 		(stroke
@@ -542,28 +505,6 @@
 	)
 	(polyline
 		(pts
-			(xy 101.981 128.905) (xy 101.981 146.431)
-		)
-		(stroke
-			(width 1.27)
-			(type dot)
-			(color 255 255 0 1)
-		)
-		(uuid "2f185741-684f-4034-9a23-f1ae55aa6f8a")
-	)
-	(polyline
-		(pts
-			(xy 98.171 145.161) (xy 88.265 145.161)
-		)
-		(stroke
-			(width 1.27)
-			(type dot)
-			(color 255 255 0 1)
-		)
-		(uuid "370711af-fc22-4f6a-b2e1-5d0cae1ba513")
-	)
-	(polyline
-		(pts
 			(xy 163.957 81.788) (xy 148.209 81.788)
 		)
 		(stroke
@@ -572,17 +513,6 @@
 			(color 255 255 0 1)
 		)
 		(uuid "3c32a370-3a1f-43b8-87ad-5d1f98261df3")
-	)
-	(polyline
-		(pts
-			(xy 98.298 92.964) (xy 88.392 92.964)
-		)
-		(stroke
-			(width 1.27)
-			(type dot)
-			(color 255 255 0 1)
-		)
-		(uuid "3c3c2c3c-84f3-4b08-9b6d-b1c3f04c1163")
 	)
 	(polyline
 		(pts
@@ -597,14 +527,14 @@
 	)
 	(polyline
 		(pts
-			(xy 112.014 109.22) (xy 103.378 109.22)
+			(xy 111.76 125.73) (xy 91.44 125.73)
 		)
 		(stroke
 			(width 1.27)
 			(type dot)
 			(color 255 255 0 1)
 		)
-		(uuid "4f0b2e39-2793-47c1-98c1-0b5c1257a466")
+		(uuid "5336f590-e273-43c4-8d85-be684aa02f0d")
 	)
 	(polyline
 		(pts
@@ -641,7 +571,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.506 118.11) (xy 91.186 118.11)
+			(xy 111.76 110.49) (xy 91.44 110.49)
 		)
 		(stroke
 			(width 1.27)
@@ -685,17 +615,6 @@
 	)
 	(polyline
 		(pts
-			(xy 102.108 109.22) (xy 102.108 91.694)
-		)
-		(stroke
-			(width 1.27)
-			(type dot)
-			(color 255 255 0 1)
-		)
-		(uuid "c6861dce-283e-48e7-ae09-d7c5116278bb")
-	)
-	(polyline
-		(pts
 			(xy 209.55 114.046) (xy 204.978 114.046)
 		)
 		(stroke
@@ -715,12 +634,6 @@
 			(color 255 255 0 1)
 		)
 		(uuid "e2bd929c-95f1-4add-baf2-6b2290b1be71")
-	)
-	(group ""
-		(uuid "03ce6661-172f-4525-b148-45ca5b7e7ba3")
-		(members "20b66ea8-e42b-452b-8b2a-60ccbc024280" "2f185741-684f-4034-9a23-f1ae55aa6f8a"
-			"370711af-fc22-4f6a-b2e1-5d0cae1ba513"
-		)
 	)
 	(group ""
 		(uuid "15284fa5-5c1c-4ffd-a4f3-8d61c486be64")
@@ -793,15 +706,5 @@
 		(members "c15c4e33-4023-432a-bbda-226253cfcaa0" "de4403a2-1c5e-4325-b5ec-6f2497ab16d8"
 			"f0bab73f-70ee-4301-bdb4-98987d3de054"
 		)
-	)
-	(group ""
-		(uuid "e74e8b2b-15f6-4aca-af30-bd826fda461a")
-		(members "3c3c2c3c-84f3-4b08-9b6d-b1c3f04c1163" "4f0b2e39-2793-47c1-98c1-0b5c1257a466"
-			"c6861dce-283e-48e7-ae09-d7c5116278bb"
-		)
-	)
-	(group ""
-		(uuid "f8d7a0c2-d69c-4248-9ffd-c6b6ee967397")
-		(members "85484f0b-dd46-43e8-808b-f09e818f87dc" "d5905486-6bc7-4a8e-b3b3-c04a281e7152")
 	)
 )
