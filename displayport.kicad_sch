@@ -584,44 +584,44 @@
 		)
 	)
 	(junction
-		(at 125.73 128.27)
+		(at 130.81 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b52bf03-c654-41c1-ba86-f3628be8e5b1")
 	)
 	(junction
-		(at 120.65 128.27)
+		(at 125.73 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67972f03-fab8-40c3-8536-e706cb971110")
 	)
 	(no_connect
-		(at 107.95 95.25)
+		(at 113.03 95.25)
 		(uuid "05f624fb-203b-4f18-858a-2aab53686a90")
 	)
 	(no_connect
-		(at 107.95 102.87)
+		(at 113.03 102.87)
 		(uuid "4aea8f9f-03d7-45c9-a86d-b11ca6040065")
 	)
 	(no_connect
-		(at 107.95 90.17)
+		(at 113.03 90.17)
 		(uuid "5f9bed32-c39b-4b5d-931b-b5a4a55095fe")
 	)
 	(no_connect
-		(at 107.95 92.71)
+		(at 113.03 92.71)
 		(uuid "a050ff58-cf45-4280-96e6-087ce5f0c51f")
 	)
 	(no_connect
-		(at 107.95 97.79)
+		(at 113.03 97.79)
 		(uuid "ade374a4-7f65-46b8-83e7-a9db8699870b")
 	)
 	(no_connect
-		(at 107.95 105.41)
+		(at 113.03 105.41)
 		(uuid "c05da65a-48a1-47fe-85d5-90577dee158a")
 	)
 	(wire
 		(pts
-			(xy 125.73 128.27) (xy 128.27 128.27)
+			(xy 130.81 128.27) (xy 133.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -631,7 +631,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 130.81) (xy 120.65 128.27)
+			(xy 125.73 130.81) (xy 125.73 128.27)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 123.19) (xy 128.27 128.27)
+			(xy 133.35 123.19) (xy 133.35 128.27)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 128.27) (xy 125.73 128.27)
+			(xy 125.73 128.27) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 123.19) (xy 125.73 128.27)
+			(xy 130.81 123.19) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -671,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 107.95) (xy 102.87 107.95)
+			(xy 113.03 107.95) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -681,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 102.87 82.55)
+			(xy 113.03 82.55) (xy 107.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -691,7 +691,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 110.49) (xy 102.87 110.49)
+			(xy 113.03 110.49) (xy 107.95 110.49)
 		)
 		(stroke
 			(width 0)
@@ -701,7 +701,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 87.63) (xy 102.87 87.63)
+			(xy 113.03 87.63) (xy 107.95 87.63)
 		)
 		(stroke
 			(width 0)
@@ -711,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 85.09) (xy 102.87 85.09)
+			(xy 113.03 85.09) (xy 107.95 85.09)
 		)
 		(stroke
 			(width 0)
@@ -721,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 120.65 72.39)
+			(xy 125.73 69.85) (xy 125.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -731,7 +731,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 113.03) (xy 102.87 113.03)
+			(xy 113.03 113.03) (xy 107.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -741,7 +741,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 123.19) (xy 120.65 128.27)
+			(xy 125.73 123.19) (xy 125.73 128.27)
 		)
 		(stroke
 			(width 0)
@@ -751,7 +751,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 102.87 80.01)
+			(xy 113.03 80.01) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +761,7 @@
 	)
 	(hierarchical_label "DP_AUX+"
 		(shape input)
-		(at 102.87 107.95 180)
+		(at 107.95 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -770,9 +770,20 @@
 		)
 		(uuid "054ce37b-acb7-45f1-9263-8aa4aabe7c0c")
 	)
+	(hierarchical_label "DP_ML0+"
+		(shape input)
+		(at 107.95 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "255316f0-8f8a-4b72-ac0e-b845555efd67")
+	)
 	(hierarchical_label "DP_ML0-"
 		(shape input)
-		(at 102.87 82.55 180)
+		(at 107.95 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -781,20 +792,9 @@
 		)
 		(uuid "4265ff6a-b768-48e1-a89d-8112a2ba8794")
 	)
-	(hierarchical_label "DP_ML0+"
-		(shape input)
-		(at 102.87 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e329549-1380-43cf-b7db-6a2b56abbce8")
-	)
 	(hierarchical_label "MUX_HPD"
 		(shape input)
-		(at 102.87 113.03 180)
+		(at 107.95 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -805,7 +805,7 @@
 	)
 	(hierarchical_label "DP_ML1+"
 		(shape input)
-		(at 102.87 85.09 180)
+		(at 107.95 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -816,7 +816,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 120.65 69.85 0)
+		(at 125.73 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -827,7 +827,7 @@
 	)
 	(hierarchical_label "DP_ML1-"
 		(shape input)
-		(at 102.87 87.63 180)
+		(at 107.95 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -838,7 +838,7 @@
 	)
 	(hierarchical_label "DP_AUX-"
 		(shape input)
-		(at 102.87 110.49 180)
+		(at 107.95 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -849,7 +849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 130.81 0)
+		(at 125.73 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -860,7 +860,7 @@
 		(fields_autoplaced yes)
 		(uuid "10eddb39-3ccd-4011-bca8-1ad5d012d4df")
 		(property "Reference" "#PWR01"
-			(at 120.65 137.16 0)
+			(at 125.73 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -871,7 +871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 135.89 0)
+			(at 125.73 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -881,7 +881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -892,7 +892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -903,7 +903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 130.81 0)
+			(at 125.73 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -927,7 +927,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DP_Source")
-		(at 120.65 97.79 0)
+		(at 125.73 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -937,7 +937,7 @@
 		(dnp no)
 		(uuid "49bc2224-0c4f-41e0-8414-9bfba7027991")
 		(property "Reference" "J2"
-			(at 102.616 126.238 0)
+			(at 107.696 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -948,7 +948,7 @@
 			)
 		)
 		(property "Value" "DP_Source"
-			(at 102.616 128.778 0)
+			(at 107.696 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -959,7 +959,7 @@
 			)
 		)
 		(property "Footprint" "DPF20102741TR:AMPHENOL_DPF20102741TR"
-			(at 120.65 97.79 0)
+			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -970,7 +970,7 @@
 			)
 		)
 		(property "Datasheet" "https://en.wikipedia.org/wiki/DisplayPort"
-			(at 120.65 97.79 0)
+			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -981,7 +981,7 @@
 			)
 		)
 		(property "Description" "Display port source connector"
-			(at 118.11 97.79 0)
+			(at 123.19 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

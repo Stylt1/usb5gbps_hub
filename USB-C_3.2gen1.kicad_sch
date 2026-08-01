@@ -11,7 +11,7 @@
 	(lib_symbols)
 	(text "DisplayPort"
 		(exclude_from_sim no)
-		(at 214.63 85.09 0)
+		(at 216.281 84.9474 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -24,7 +24,7 @@
 	)
 	(text "USB-C MUX"
 		(exclude_from_sim no)
-		(at 213.995 50.8 0)
+		(at 215.646 50.6574 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -37,7 +37,7 @@
 	)
 	(text "USB HUB"
 		(exclude_from_sim no)
-		(at 79.375 84.4706 0)
+		(at 81.026 84.328 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -50,7 +50,7 @@
 	)
 	(text "SD"
 		(exclude_from_sim no)
-		(at 213.741 116.9826 0)
+		(at 215.392 116.84 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -63,7 +63,7 @@
 	)
 	(text "ETHERNET"
 		(exclude_from_sim no)
-		(at 80.899 116.9826 0)
+		(at 82.55 116.84 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -76,7 +76,7 @@
 	)
 	(text "USB-C Hub"
 		(exclude_from_sim no)
-		(at 144.272 25.654 0)
+		(at 146.05 25.4 0)
 		(effects
 			(font
 				(size 10.16 10.16)
@@ -112,7 +112,7 @@
 		(members "80a22beb-528f-4fff-8fe7-88006ebfcd3d" "c7856450-73cc-4403-8f6d-4d088d0a5872")
 	)
 	(sheet
-		(at 149.479 39.5126)
+		(at 151.13 39.37)
 		(size 130.302 19.558)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -128,7 +128,7 @@
 		)
 		(uuid "17969bed-c5f0-4add-8dba-a477a6fcae7c")
 		(property "Sheetname" "USB-C MUX"
-			(at 165.481 54.2446 0)
+			(at 167.132 54.102 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143,7 +143,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-c_mux.kicad_sch"
-			(at 149.479 60.595 0)
+			(at 151.13 60.4524 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -163,7 +163,7 @@
 		)
 	)
 	(sheet
-		(at 64.77 139.7)
+		(at 66.04 139.7)
 		(size 160.02 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -179,7 +179,7 @@
 		)
 		(uuid "2f47c3db-d6e6-45ef-ab94-b0eae5f0b72a")
 		(property "Sheetname" "Block Diagram"
-			(at 117.602 153.67 0)
+			(at 118.872 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -193,7 +193,7 @@
 			)
 		)
 		(property "Sheetfile" "block_diagram.kicad_sch"
-			(at 64.77 178.6894 0)
+			(at 66.04 178.6894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -213,7 +213,7 @@
 		)
 	)
 	(sheet
-		(at 16.129 106.8226)
+		(at 17.78 106.68)
 		(size 130.302 19.558)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -229,7 +229,7 @@
 		)
 		(uuid "373a74f5-fd9e-49bb-a274-b26fbd7325a8")
 		(property "Sheetname" "ETHERNET"
-			(at 32.131 121.5546 0)
+			(at 33.782 121.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -244,7 +244,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 16.129 127.905 0)
+			(at 17.78 127.7624 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -264,7 +264,7 @@
 		)
 	)
 	(sheet
-		(at 16.002 39.878)
+		(at 17.653 39.7354)
 		(size 130.302 19.558)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -280,7 +280,7 @@
 		)
 		(uuid "3e398fdc-1593-480c-a6b2-1cbff8b90dcb")
 		(property "Sheetname" "POWER"
-			(at 62.23 54.356 0)
+			(at 63.881 54.2134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -294,7 +294,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 16.002 60.9604 0)
+			(at 17.653 60.8178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -303,6 +303,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBUS1" input
+			(at 24.13 59.2934 270)
+			(uuid "22576428-4d8e-49dc-80ff-14c5b7d2765d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 26.67 59.2934 270)
+			(uuid "05e17235-b1c3-46ba-ba4d-03ad181ee2d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS2" input
+			(at 29.21 59.2934 270)
+			(uuid "fa908cbe-9ed3-4b1a-bbb4-cea2d94ba2d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_PWR" input
+			(at 31.75 59.2934 270)
+			(uuid "56f859e9-fd5a-4a47-99a1-2814c33b1fcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" input
+			(at 34.29 59.2934 270)
+			(uuid "7faca24b-0aee-42f2-9639-8512dbd26add")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V2" input
+			(at 36.83 59.2934 270)
+			(uuid "21fd6f2e-fd4f-4263-b121-b7d317767e4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 39.37 59.2934 270)
+			(uuid "6e8a7228-23d1-45bc-a62c-0ffc4c0e6cca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LDO_3V3" input
+			(at 41.91 59.2934 270)
+			(uuid "fca1c4d9-5291-49d9-9005-8236f742d9db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 44.45 59.2934 270)
+			(uuid "bd775a94-8138-4961-951c-a9821c9efdf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -314,7 +404,7 @@
 		)
 	)
 	(sheet
-		(at 149.479 106.8226)
+		(at 151.13 106.68)
 		(size 130.302 19.558)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -330,7 +420,7 @@
 		)
 		(uuid "80a22beb-528f-4fff-8fe7-88006ebfcd3d")
 		(property "Sheetname" "SD"
-			(at 165.481 121.5546 0)
+			(at 167.132 121.412 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -345,7 +435,7 @@
 			)
 		)
 		(property "Sheetfile" "sd.kicad_sch"
-			(at 149.479 127.905 0)
+			(at 151.13 127.7624 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -365,7 +455,7 @@
 		)
 	)
 	(sheet
-		(at 149.479 73.8026)
+		(at 151.13 73.66)
 		(size 130.302 19.558)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -381,7 +471,7 @@
 		)
 		(uuid "b0a9cc29-31f0-4a83-bd72-85cc3fbf78e2")
 		(property "Sheetname" "DisplayPort"
-			(at 165.481 88.5346 0)
+			(at 167.132 88.392 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -396,7 +486,7 @@
 			)
 		)
 		(property "Sheetfile" "displayport.kicad_sch"
-			(at 149.479 94.885 0)
+			(at 151.13 94.7424 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -416,7 +506,7 @@
 		)
 	)
 	(sheet
-		(at 16.129 73.8026)
+		(at 17.78 73.66)
 		(size 130.302 19.558)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -432,7 +522,7 @@
 		)
 		(uuid "f5cb6dae-f4e5-4740-8d04-47b64833c5c2")
 		(property "Sheetname" "USB HUB"
-			(at 32.131 88.5346 0)
+			(at 33.782 88.392 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -447,7 +537,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_hub.kicad_sch"
-			(at 16.129 94.885 0)
+			(at 17.78 94.7424 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -456,6 +546,246 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HUB_SSRX+" input
+			(at 19.05 93.218 270)
+			(uuid "b1147905-8b0e-4169-8389-d663d6b3322f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN_D-" input
+			(at 21.59 93.218 270)
+			(uuid "ee028c4f-7928-4c6c-8604-a0f34265a7c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_SSTX+" input
+			(at 24.13 93.218 270)
+			(uuid "ae6eb541-3550-4a7b-b26b-80d0b6a33d9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 26.67 93.218 270)
+			(uuid "1b5f5b2b-159b-4ad2-ae8c-c49e93b17eac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 29.21 93.218 270)
+			(uuid "edc124b6-64d6-4482-ac6a-563a5e9eb72e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_SSTX-" input
+			(at 31.75 93.218 270)
+			(uuid "fa1f5638-4cc6-4a44-ba29-42cb60f6ceef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 34.29 93.218 270)
+			(uuid "5730ded7-b5fa-467f-a9bf-a746f07a1262")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN_SSRX-" input
+			(at 36.83 93.218 270)
+			(uuid "8a05c187-0085-4215-9ae6-5a20f13a910e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_SSRX+" input
+			(at 39.37 93.218 270)
+			(uuid "e57a6a3a-2805-4d70-973b-a1378d95ab13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_D-" input
+			(at 41.91 93.218 270)
+			(uuid "00f13e98-e8ed-4e53-b97a-3eb8635c6f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB2_D-" input
+			(at 44.45 93.218 270)
+			(uuid "354b115a-6977-4816-8523-8104ccf76e8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V2" input
+			(at 46.99 93.218 270)
+			(uuid "74bb6067-8554-468a-8510-3ce4ed8ebd00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB2_D+" input
+			(at 49.53 93.218 270)
+			(uuid "f22552e1-a43f-40a5-819c-de9fac9aba50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN_D+" input
+			(at 52.07 93.218 270)
+			(uuid "10df4274-45e5-49c0-8544-5f990519be3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XTLI" input
+			(at 54.61 93.218 270)
+			(uuid "99caaae0-b89f-48a7-9a62-88aa6a9130c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN_SSTX-" input
+			(at 57.15 93.218 270)
+			(uuid "204c34b8-686f-42e3-adc5-75acf9d305a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HUB_SSRX-" input
+			(at 78.74 93.218 270)
+			(uuid "2d4a1a8f-235e-44ab-a34d-a17553d63403")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HUB_SSTX+" input
+			(at 81.28 93.218 270)
+			(uuid "087254ca-d857-43dc-a0df-957b92ee65a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_SSRX-" input
+			(at 104.14 93.218 270)
+			(uuid "8d7fec88-f013-488f-bbb0-f7522a34367f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN_SSRX+" input
+			(at 106.68 93.218 270)
+			(uuid "fa495ab7-1d62-4680-83ee-8f2bdb6eb671")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_D+" input
+			(at 109.22 93.218 270)
+			(uuid "ab096c7b-5b8f-44be-af38-2f0f3af98362")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XTL0" input
+			(at 111.76 93.218 270)
+			(uuid "7d4f255a-38b5-456a-bb70-51e292c8c38f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LAN_SSTX+" input
+			(at 114.3 93.218 270)
+			(uuid "c1c003bd-541a-458d-9e17-a91abe992f31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HUB_SSTX-" output
+			(at 116.84 93.218 270)
+			(uuid "83242613-2078-40ae-82e5-31097c83baf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

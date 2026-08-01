@@ -10,8 +10,8 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 62.5384 51.435)
-		(end 92.0024 65.405)
+		(start 64.0624 51.181)
+		(end 93.5264 65.151)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -23,8 +23,8 @@
 		(uuid "2a753540-bb1f-4b82-aeef-323342ae09df")
 	)
 	(rectangle
-		(start 113.03 102.743)
-		(end 152.654 133.477)
+		(start 114.554 102.489)
+		(end 154.178 133.223)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -36,8 +36,8 @@
 		(uuid "2d386208-6caf-4c8b-bc59-794858834dd1")
 	)
 	(rectangle
-		(start 116.078 146.812)
-		(end 149.606 169.164)
+		(start 117.602 146.558)
+		(end 151.13 168.91)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -49,8 +49,8 @@
 		(uuid "378cc690-e05f-41fb-9b7a-2562347e484f")
 	)
 	(rectangle
-		(start 70.866 20.066)
-		(end 140.462 42.164)
+		(start 72.39 19.812)
+		(end 141.986 41.91)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -62,8 +62,8 @@
 		(uuid "5b4dbf26-d466-41ce-9f0d-44e3348fba26")
 	)
 	(rectangle
-		(start 222.377 123.19)
-		(end 255.905 145.542)
+		(start 223.901 122.936)
+		(end 257.429 145.288)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "8511571e-02c2-4f1f-a819-1518f746afb1")
 	)
 	(rectangle
-		(start 170.561 106.934)
-		(end 204.089 129.286)
+		(start 172.085 106.68)
+		(end 205.613 129.032)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "9035f92a-f1ea-4f07-9375-59062c6dff3e")
 	)
 	(rectangle
-		(start 164.846 72.39)
-		(end 212.217 91.186)
+		(start 166.37 72.136)
+		(end 213.741 90.932)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -101,8 +101,8 @@
 		(uuid "b7ab07f7-c8f8-4265-a6ce-ff813db32781")
 	)
 	(rectangle
-		(start 95.758 49.022)
-		(end 117.856 67.056)
+		(start 97.282 48.768)
+		(end 119.38 66.802)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -114,8 +114,8 @@
 		(uuid "b88241e4-be78-4654-a08c-b033d27b4d0d")
 	)
 	(rectangle
-		(start 62.484 120.904)
-		(end 91.948 134.874)
+		(start 64.008 120.65)
+		(end 93.472 134.62)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "b8aa9a2c-90ea-4ca3-a0a9-03d421bc5997")
 	)
 	(rectangle
-		(start 62.611 102.997)
-		(end 92.075 116.967)
+		(start 64.135 102.743)
+		(end 93.599 116.713)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -140,8 +140,8 @@
 		(uuid "e5c6ab12-5636-4890-b124-273afe07caad")
 	)
 	(rectangle
-		(start 119.888 72.136)
-		(end 147.066 91.44)
+		(start 121.412 71.882)
+		(end 148.59 91.186)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -153,8 +153,8 @@
 		(uuid "f0bab73f-70ee-4301-bdb4-98987d3de054")
 	)
 	(rectangle
-		(start 121.031 176.022)
-		(end 144.653 191.77)
+		(start 122.555 175.768)
+		(end 146.177 191.516)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -166,8 +166,8 @@
 		(uuid "f558f991-0f20-4971-a4a6-209e5051f695")
 	)
 	(rectangle
-		(start 222.377 88.9)
-		(end 255.905 111.252)
+		(start 223.901 88.646)
+		(end 257.429 110.998)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -180,7 +180,7 @@
 	)
 	(text "SD"
 		(exclude_from_sim no)
-		(at 239.141 129.794 0)
+		(at 240.665 129.54 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -193,7 +193,7 @@
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
-		(at 77.47 110.49 0)
+		(at 78.994 110.236 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -206,7 +206,7 @@
 	)
 	(text "HUB"
 		(exclude_from_sim no)
-		(at 131.826 124.587 0)
+		(at 133.35 124.333 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -219,7 +219,7 @@
 	)
 	(text "LAN"
 		(exclude_from_sim no)
-		(at 133.096 161.544 0)
+		(at 134.62 161.29 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -232,7 +232,7 @@
 	)
 	(text "USB-A "
 		(exclude_from_sim no)
-		(at 78.74 128.27 0)
+		(at 80.264 128.016 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -245,7 +245,7 @@
 	)
 	(text "Slot"
 		(exclude_from_sim no)
-		(at 239.141 104.14 0)
+		(at 240.665 103.886 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -258,7 +258,7 @@
 	)
 	(text "Slot"
 		(exclude_from_sim no)
-		(at 239.141 138.938 0)
+		(at 240.665 138.684 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -271,7 +271,7 @@
 	)
 	(text "USB to"
 		(exclude_from_sim no)
-		(at 133.604 154.432 0)
+		(at 135.128 154.178 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -284,7 +284,7 @@
 	)
 	(text "DisplayPort"
 		(exclude_from_sim no)
-		(at 188.341 82.296 0)
+		(at 189.865 82.042 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -297,7 +297,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 131.572 112.395 0)
+		(at 133.096 112.141 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -310,7 +310,7 @@
 	)
 	(text "USB-C"
 		(exclude_from_sim no)
-		(at 105.664 31.496 0)
+		(at 107.188 31.242 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -323,7 +323,7 @@
 	)
 	(text "MicroSD"
 		(exclude_from_sim no)
-		(at 239.141 95.504 0)
+		(at 240.665 95.25 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -336,7 +336,7 @@
 	)
 	(text "READER"
 		(exclude_from_sim no)
-		(at 186.563 123.19 0)
+		(at 188.087 122.936 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -349,7 +349,7 @@
 	)
 	(text "USB-C\n"
 		(exclude_from_sim no)
-		(at 77.47 58.928 0)
+		(at 78.994 58.674 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -362,7 +362,7 @@
 	)
 	(text "RJ45"
 		(exclude_from_sim no)
-		(at 132.715 184.15 0)
+		(at 134.239 183.896 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -375,7 +375,7 @@
 	)
 	(text "MUX"
 		(exclude_from_sim no)
-		(at 133.604 86.106 0)
+		(at 135.128 85.852 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -388,7 +388,7 @@
 	)
 	(text "PD"
 		(exclude_from_sim no)
-		(at 107.188 57.912 0)
+		(at 108.712 57.658 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -401,7 +401,7 @@
 	)
 	(text "(PowerDelivery)"
 		(exclude_from_sim no)
-		(at 76.962 68.326 0)
+		(at 78.486 68.072 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -413,7 +413,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 133.604 78.486 0)
+		(at 135.128 78.232 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -426,7 +426,7 @@
 	)
 	(text "SD"
 		(exclude_from_sim no)
-		(at 186.69 115.062 0)
+		(at 188.214 114.808 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -439,7 +439,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.25 58.928) (xy 92.71 58.928)
+			(xy 95.25 58.674) (xy 94.234 58.674)
 		)
 		(stroke
 			(width 1.27)
@@ -450,7 +450,7 @@
 	)
 	(polyline
 		(pts
-			(xy 221.488 100.584) (xy 209.55 100.584)
+			(xy 223.012 100.33) (xy 211.074 100.33)
 		)
 		(stroke
 			(width 1.27)
@@ -461,7 +461,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.188 48.26) (xy 107.188 43.18)
+			(xy 108.712 48.26) (xy 108.712 42.926)
 		)
 		(stroke
 			(width 1.27)
@@ -472,7 +472,7 @@
 	)
 	(polyline
 		(pts
-			(xy 169.926 118.11) (xy 151.13 118.11)
+			(xy 169.926 117.856) (xy 152.654 117.856)
 		)
 		(stroke
 			(width 1.27)
@@ -483,7 +483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 221.361 134.239) (xy 209.423 134.239)
+			(xy 222.885 133.985) (xy 210.947 133.985)
 		)
 		(stroke
 			(width 1.27)
@@ -494,7 +494,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.423 134.239) (xy 209.423 120.777)
+			(xy 210.947 133.985) (xy 210.947 120.523)
 		)
 		(stroke
 			(width 1.27)
@@ -505,7 +505,7 @@
 	)
 	(polyline
 		(pts
-			(xy 163.957 81.788) (xy 148.209 81.788)
+			(xy 164.084 81.534) (xy 149.86 81.534)
 		)
 		(stroke
 			(width 1.27)
@@ -516,7 +516,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.364 82.55) (xy 107.188 82.55)
+			(xy 118.364 82.296) (xy 108.712 82.296)
 		)
 		(stroke
 			(width 1.27)
@@ -527,7 +527,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 125.73) (xy 91.44 125.73)
+			(xy 111.76 125.476) (xy 92.964 125.476)
 		)
 		(stroke
 			(width 1.27)
@@ -538,7 +538,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.842 134.366) (xy 132.842 146.304)
+			(xy 134.366 134.366) (xy 134.366 146.05)
 		)
 		(stroke
 			(width 1.27)
@@ -549,7 +549,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.423 120.777) (xy 204.851 120.777)
+			(xy 210.947 120.523) (xy 206.375 120.523)
 		)
 		(stroke
 			(width 1.27)
@@ -560,7 +560,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.188 82.804) (xy 107.188 68.072)
+			(xy 108.712 82.804) (xy 108.712 67.818)
 		)
 		(stroke
 			(width 1.27)
@@ -571,7 +571,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 110.49) (xy 91.44 110.49)
+			(xy 111.76 110.236) (xy 92.964 110.236)
 		)
 		(stroke
 			(width 1.27)
@@ -582,7 +582,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.842 102.108) (xy 132.842 93.218)
+			(xy 134.366 102.108) (xy 134.366 92.964)
 		)
 		(stroke
 			(width 1.27)
@@ -593,7 +593,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.842 169.672) (xy 132.842 175.26)
+			(xy 134.366 169.672) (xy 134.366 175.006)
 		)
 		(stroke
 			(width 1.27)
@@ -604,7 +604,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.55 100.584) (xy 209.55 114.046)
+			(xy 211.074 100.33) (xy 211.074 113.792)
 		)
 		(stroke
 			(width 1.27)
@@ -615,7 +615,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.55 114.046) (xy 204.978 114.046)
+			(xy 211.074 113.792) (xy 206.502 113.792)
 		)
 		(stroke
 			(width 1.27)
@@ -626,7 +626,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.588 71.628) (xy 132.588 42.672)
+			(xy 134.112 71.628) (xy 134.112 42.418)
 		)
 		(stroke
 			(width 1.27)
