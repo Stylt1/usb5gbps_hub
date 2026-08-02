@@ -1996,8 +1996,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U3"
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2007,7 +2007,7 @@
 				)
 			)
 			(property "Value" "TPD2S300YFFR"
-				(at 0 0 0)
+				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2016,7 +2016,7 @@
 					)
 				)
 			)
-			(property "Footprint" "YFF0009AJAJ"
+			(property "Footprint" "Package_BGA:Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2132,6 +2132,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "TPD2S300YFFR_1_1"
 				(pin unspecified line
 					(at -20.32 -2.54 0)
 					(length 5.08)
@@ -2142,7 +2144,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2160,7 +2162,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2178,7 +2180,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2196,7 +2198,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2214,7 +2216,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2232,7 +2234,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2250,7 +2252,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2268,7 +2270,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "C2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2286,7 +2288,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "C3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4108,12 +4110,6 @@
 		(uuid "0296239e-e27f-4037-9884-91bb8e79bc3e")
 	)
 	(junction
-		(at 165.1 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "137e2d03-8bb4-4021-a881-d3373947c7c9")
-	)
-	(junction
 		(at 139.7 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4220,12 +4216,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72cb1456-8b3b-4e75-99f4-33c707766a2f")
-	)
-	(junction
-		(at 68.58 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "742a836c-993c-4edb-b26d-77b1ca1500e7")
 	)
 	(junction
 		(at 104.14 52.07)
@@ -4815,7 +4805,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 135.89) (xy 165.1 135.89)
+			(xy 162.56 135.89) (xy 168.91 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5302,16 +5292,6 @@
 			(type default)
 		)
 		(uuid "4f6c66b1-59d9-4eb5-a766-80c2a8c5de81")
-	)
-	(wire
-		(pts
-			(xy 165.1 135.89) (xy 162.56 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe00819-cc15-4feb-aee2-cabdf473b508")
 	)
 	(wire
 		(pts
@@ -6135,7 +6115,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 166.37) (xy 68.58 166.37)
+			(xy 64.77 166.37) (xy 71.12 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6805,16 +6785,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 166.37) (xy 71.12 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4844bab-7c61-4926-8f83-6decff2cfe0c")
-	)
-	(wire
-		(pts
 			(xy 93.98 88.9) (xy 93.98 90.17)
 		)
 		(stroke
@@ -7073,154 +7043,156 @@
 		)
 		(uuid "f0ac5ba4-e07d-4ad4-bade-66f0ceae4dfc")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 62.23 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "112229ff-1704-4795-8992-f64557ca1290")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 116.84 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1439aa4a-fe54-4671-ae08-c76121b2fa10")
-	)
-	(hierarchical_label "LDO_3V3"
-		(shape input)
-		(at 228.6 19.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "1c626d8f-168f-4f17-9b6f-0512bbd3c6c3")
-	)
-	(hierarchical_label "I2C_SDA"
-		(shape input)
-		(at 135.89 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2370e167-3604-4a91-9887-26c44609fb29")
-	)
-	(hierarchical_label "I2C_SCL"
-		(shape input)
-		(at 135.89 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "257f4e9b-2dc2-4801-92a0-3fb47cea7d95")
-	)
-	(hierarchical_label "VBUS1"
-		(shape input)
-		(at 67.31 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31170c7a-af78-4c6a-b9ce-b12a76b765d1")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 62.23 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35c28388-3a14-4d2c-abe4-64dc5ca007c6")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 119.38 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "379da5a4-0669-4bdc-8520-028bcbc3479a")
-	)
-	(hierarchical_label "1V2"
-		(shape input)
-		(at 168.91 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4096b25f-0b97-4d01-a4ac-9002d6c3123d")
-	)
-	(hierarchical_label "VBUS1"
-		(shape input)
-		(at 233.68 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40ce6451-e167-4f29-b91b-40b1c44be9c4")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 116.84 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46be77a4-5652-450b-98c2-b4833c3353ed")
-	)
-	(hierarchical_label "SYS_PWR"
-		(shape input)
-		(at 222.25 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4931070b-8de2-4c63-bddb-3f67580fdf6e")
-	)
-	(hierarchical_label "VBUS2"
+	(global_label "VBUS2"
 		(shape input)
 		(at 233.68 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "62ccb8bc-1246-40eb-a34a-bd3c5641f11a")
+		(uuid "272c8ef5-4366-4515-aec3-78a974dea1a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.7733 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "LDO_3V3"
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 135.89 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d9ece28-8ff0-416d-b087-ce8c0e74c367")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.2848 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 119.38 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33d3e8ad-1043-49da-8331-9bcd6b8a9360")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.8728 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 62.23 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e170c24-a6b0-4602-aa47-26e8cb9e5641")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.9467 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LDO_3V3"
+		(shape input)
+		(at 228.6 19.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "59c47d75-2c37-4d70-883d-ea0953beb8bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.035 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 135.89 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "677a6ee2-72ca-4702-a159-c05343357748")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.3453 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LDO_3V3"
 		(shape input)
 		(at 251.46 144.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7229,55 +7201,120 @@
 			)
 			(justify left)
 		)
-		(uuid "67c33f18-7649-4445-8a5b-f17b8646b7cb")
+		(uuid "6a4f1aec-ceef-4a96-b9fe-30fa21abbe11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.025 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "SYS_PWR"
+	(global_label "SYS_PWR"
 		(shape input)
 		(at 24.13 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6abd9196-3170-41ca-b60c-319b0abf6690")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 137.16 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "75fcc869-3e46-4814-b535-88446434fb9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.6782 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
-			(justify right)
 		)
-		(uuid "6d5ae9cd-14fc-496b-8215-8a47dc19421c")
 	)
-	(hierarchical_label "VBUS2"
-		(shape input)
-		(at 152.4 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc2f98dc-c530-4211-90c6-b8fc177dca30")
-	)
-	(hierarchical_label "3V3"
+	(global_label "3V3"
 		(shape input)
 		(at 129.54 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c501a7f7-9a4b-4bd9-a285-7c0e3e1cd86d")
+		(uuid "77380742-d841-4594-a8af-33cd47cb0f11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.0472 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "LDO_3V3"
+	(global_label "1V2"
+		(shape input)
+		(at 168.91 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "778d4cf1-9059-478d-b369-2d789f74e4d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.4028 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 116.84 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a39efa0-1b04-4f77-abc2-c2b6d54873d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.3328 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LDO_3V3"
 		(shape input)
 		(at 240.03 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7286,40 +7323,259 @@
 			)
 			(justify left)
 		)
-		(uuid "d9a82424-9985-4ec8-a76b-8202bbdce91f")
+		(uuid "7a497b28-6ddd-43b7-9d1f-8c7834828aca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.595 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "VBUS1"
+	(global_label "3V3"
 		(shape input)
-		(at 152.4 105.41 180)
+		(at 137.16 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "db3c7327-45d1-4f7d-9826-608be9db3cfe")
+		(uuid "9a470693-3f30-406d-9762-63cefb4d9f12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6672 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "SYS_PWR"
+	(global_label "SYS_PWR"
 		(shape input)
 		(at 21.59 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ebafc719-2b23-4b83-8aea-1cd8586fefcb")
+		(uuid "9e313125-e346-417b-80db-c17f06cdbd78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 10.1382 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "3V3"
+	(global_label "5V"
 		(shape input)
-		(at 257.81 49.53 0)
+		(at 116.84 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f4f87076-7107-4428-b217-08c447fa6c6d")
+		(uuid "a0320795-6531-4327-a6e7-87d2b76c69f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1233 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS1"
+		(shape input)
+		(at 233.68 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9f80561-baaa-4f88-8d34-eacce8e1b9a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.7733 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 62.23 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2fbd157-9427-456e-8698-b36fa457cffa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7372 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SYS_PWR"
+		(shape input)
+		(at 222.25 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9c20a9a-fd83-4e63-a0b1-a1961cd9f823")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.7018 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS1"
+		(shape input)
+		(at 152.4 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfb90333-e253-4103-b3d9-4bd4d3f069f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.3067 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 257.81 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecd55189-2b0e-4007-b7e8-5dd30e419230")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.3028 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS1"
+		(shape input)
+		(at 67.31 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5443584-63a0-42df-937c-76c109bb03fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.4033 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS2"
+		(shape input)
+		(at 152.4 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f75caa78-f66d-4120-a564-112e4de3e963")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.3067 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -7332,7 +7588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02faf32e-9836-42bf-9408-6933b9046712")
-		(property "Reference" "C41"
+		(property "Reference" "C12"
 			(at 115.062 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7396,7 +7652,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C41")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7414,7 +7670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "051470e3-0eaa-4354-a2ec-c0b9f9fdcf82")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 87.63 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7476,7 +7732,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7493,7 +7749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05f2997c-aaa8-4c56-a87f-ee158de6b58b")
-		(property "Reference" "C52"
+		(property "Reference" "C14"
 			(at 134.62 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7557,7 +7813,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C52")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7574,7 +7830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09c365ed-22a1-4457-809a-9b855999292c")
-		(property "Reference" "C1"
+		(property "Reference" "C7"
 			(at 69.85 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7638,7 +7894,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7655,7 +7911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e51075d-67a6-4917-8501-e99753d74e06")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR013"
 			(at 116.84 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7715,7 +7971,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR022")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7732,7 +7988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15cc0915-8ecb-4f45-9d12-937307d9a43d")
-		(property "Reference" "C40"
+		(property "Reference" "C10"
 			(at 106.172 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +8052,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C40")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7813,7 +8069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16fa4398-39d3-43dc-8193-bfd9c151503b")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 95.25 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7877,7 +8133,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7895,7 +8151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d01eeff-8385-4558-b68d-d90084871718")
-		(property "Reference" "U15"
+		(property "Reference" "U4"
 			(at 151.13 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +8223,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "U15")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7985,7 +8241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2007e50c-a37b-41fc-9fa1-fbfbe26c2da8")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 60.96 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +8315,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8076,7 +8332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22587976-f4f8-4a6c-be9d-a5e0a5265fdf")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG07"
 			(at 268.605 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8137,7 +8393,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG06")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -8154,7 +8410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "253e67f9-4c93-4e39-8259-a51e7724d679")
-		(property "Reference" "C53"
+		(property "Reference" "C15"
 			(at 165.1 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +8474,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C53")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "276a7566-4a12-41cd-945f-88e4d90ad32d")
-		(property "Reference" "R18"
+		(property "Reference" "R2"
 			(at 47.498 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8299,7 +8555,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R18")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8316,7 +8572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27d903c1-a8c6-4560-8280-3a0083e27728")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR04"
 			(at 54.61 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8376,7 +8632,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR028")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8393,7 +8649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "289fa59f-24d8-4ab2-b2f8-0fb5b30b2db0")
-		(property "Reference" "C29"
+		(property "Reference" "C16"
 			(at 238.76 18.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +8713,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C29")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e33f8d7-0214-4d08-87db-fa32bd484737")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG08"
 			(at 276.86 42.545 0)
 			(hide yes)
 			(show_name no)
@@ -8535,7 +8791,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG05")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -8552,7 +8808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f25a81f-811a-42e4-b2c9-765499001994")
-		(property "Reference" "C36"
+		(property "Reference" "C13"
 			(at 117.602 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,7 +8872,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C36")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8633,7 +8889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36a35633-7d04-4c7b-8bca-e01570faeffa")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR06"
 			(at 58.42 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8693,7 +8949,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR026")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8710,7 +8966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38dab6a0-83ed-413a-8888-eb727385e74a")
-		(property "Reference" "C35"
+		(property "Reference" "C11"
 			(at 108.712 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +9030,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C35")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8791,7 +9047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3acd2bcf-2231-4be6-a711-47796d087cc3")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG04"
 			(at 224.79 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -8852,7 +9108,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG07")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8869,7 +9125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d567abc-a13d-4d94-be8e-55299e60926a")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 118.618 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +9189,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8950,7 +9206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "414fa932-53c0-46d6-9f37-2c56cda7c9f3")
-		(property "Reference" "R17"
+		(property "Reference" "R7"
 			(at 110.998 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9014,7 +9270,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R17")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9031,7 +9287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44ae92d7-fe66-408a-9145-0556da0bd215")
-		(property "Reference" "C25"
+		(property "Reference" "C22"
 			(at 279.4 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9095,7 +9351,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C25")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49633021-dbf5-4c85-8a50-e652fc90fae3")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 90.932 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,85 +9432,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 238.76 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c47f75a-2500-4a5b-8633-4c21c3cfeaa0")
-		(property "Reference" "#FLG04"
-			(at 238.76 132.715 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 238.76 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 238.76 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c8dddf3-9288-4d06-b2ac-46db64d0aebe")
-		)
-		(instances
-			(project "USB-C_3.2gen1"
-				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG04")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5011d827-48fd-4e3b-8194-baf26071c305")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 247.396 149.352 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9335,7 +9513,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9352,7 +9530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5105b5e1-512c-4a72-abb5-d067b61cce76")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR07"
 			(at 60.96 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9412,7 +9590,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR035")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9429,7 +9607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d8e421d-09bf-4377-92fc-0ac7f16038e4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR017"
 			(at 238.76 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9489,7 +9667,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR032")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9506,7 +9684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ed366c3-9d36-46af-bf81-dcadf3ef5724")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 88.392 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9570,7 +9748,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9587,7 +9765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68d19dcb-b03b-4d37-96fb-6a27d2174554")
-		(property "Reference" "C33"
+		(property "Reference" "C4"
 			(at 36.322 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9651,7 +9829,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C33")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9668,7 +9846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "693570a2-e8e1-4b7b-9f7c-303fb572c4b9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 76.2 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9728,7 +9906,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9745,7 +9923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69d33c56-da50-41a1-be82-b89b626b2b22")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR014"
 			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9805,7 +9983,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR033")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9822,7 +10000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cdd6d9b-d6bb-4b16-a3b5-9b5e8a1ebfec")
-		(property "Reference" "C30"
+		(property "Reference" "C17"
 			(at 234.95 32.512 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,7 +10064,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C30")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9903,7 +10081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d6c0dd2-237d-44ab-9056-2da983d8489d")
-		(property "Reference" "C22"
+		(property "Reference" "C6"
 			(at 67.31 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9967,7 +10145,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C22")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9984,7 +10162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d905092-4924-4d8e-8f31-82fb4240e348")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR016"
 			(at 220.98 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10044,7 +10222,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR030")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10061,7 +10239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ddef072-aac2-4d45-bc75-642fc4826c71")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR011"
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10121,7 +10299,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR037")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10138,7 +10316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7366c053-76d8-4427-8474-5cf7fc0ef3d8")
-		(property "Reference" "R32"
+		(property "Reference" "R11"
 			(at 133.096 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +10380,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R32")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10219,7 +10397,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75bd643b-491a-40eb-bb5f-8a64ff712fe0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 27.94 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -10279,7 +10457,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10297,7 +10475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82979e96-69d5-47a5-9cf8-4e589cd63c8f")
-		(property "Reference" "R33"
+		(property "Reference" "R12"
 			(at 144.018 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10361,7 +10539,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R33")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10378,7 +10556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "845799a1-deb2-453b-871c-bbef62292428")
-		(property "Reference" "C28"
+		(property "Reference" "C19"
 			(at 247.142 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10442,7 +10620,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C28")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10537,7 +10715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8786419d-a1bf-4e19-ace5-546b12917fd8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR05"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10597,7 +10775,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR039")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10614,7 +10792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87a4db2b-51c1-4515-88d4-9a86b77ad45e")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR010"
 			(at 93.98 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10674,7 +10852,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR040")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10692,7 +10870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9188787f-ebca-418b-a8e2-05f34980193e")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 90.17 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10754,7 +10932,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -10772,7 +10950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a82b99-eb8c-4185-ba0a-5543f7d9dcf0")
-		(property "Reference" "#FLG014"
+		(property "Reference" "#FLG05"
 			(at 230.505 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10833,7 +11011,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG014")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -10850,7 +11028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f88cb84-6166-4496-847b-d193b9f69aee")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR019"
 			(at 240.03 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10910,7 +11088,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR025")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10927,7 +11105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0f19d10-79da-4f85-aec0-13b871ba7b54")
-		(property "Reference" "C37"
+		(property "Reference" "C1"
 			(at 24.892 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10991,7 +11169,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C37")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11008,7 +11186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2d678bf-f4fa-44b8-93c8-adbbba9b9b7c")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 80.772 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11070,7 +11248,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11087,7 +11265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a39d116b-9187-4ac8-bbba-2aa30e2daabc")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 118.364 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11151,7 +11329,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11168,7 +11346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9185854-a8a0-47c4-8e38-45d69613002a")
-		(property "Reference" "C27"
+		(property "Reference" "C20"
 			(at 256.032 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11232,7 +11410,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C27")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11250,7 +11428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9d7d845-3ee2-4948-8eca-18842b2ae096")
-		(property "Reference" "U12"
+		(property "Reference" "U6"
 			(at 212.09 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11630,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "U12")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11469,7 +11647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae34c08b-b2b1-4b13-b0fe-a92544b85257")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR01"
 			(at 22.86 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11529,7 +11707,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR038")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11546,7 +11724,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae70d680-6a8d-490a-b2c0-920d0fd8611b")
-		(property "Reference" "C32"
+		(property "Reference" "C2"
 			(at 27.432 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11610,7 +11788,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C32")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11627,7 +11805,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "afeeb229-b79a-4b4c-84e6-04645b7ead3b")
-		(property "Reference" "C26"
+		(property "Reference" "C21"
 			(at 269.24 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11691,7 +11869,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C26")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11708,7 +11886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0f3f760-a483-4f29-bfb2-3f7ea5ee1edb")
-		(property "Reference" "R19"
+		(property "Reference" "R1"
 			(at 44.958 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11772,7 +11950,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R19")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11789,7 +11967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b98812a1-0005-4132-ba30-b116a061e6da")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 126.238 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,85 +12031,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 165.1 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba2241ce-1f4f-453f-8bed-e01a9822e9ca")
-		(property "Reference" "#FLG015"
-			(at 165.1 133.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 165.1 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 165.1 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94064917-dc0d-4384-804d-46a8059e42e0")
-		)
-		(instances
-			(project "USB-C_3.2gen1"
-				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG015")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11949,7 +12049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c06ff6bb-6995-4d3f-837a-b3b5e41e1a3c")
-		(property "Reference" "U13"
+		(property "Reference" "U5"
 			(at 186.69 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12316,7 +12416,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "U13")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -12333,7 +12433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3f5b041-6830-4600-8f71-c9d628cbee82")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR08"
 			(at 64.77 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12393,7 +12493,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR027")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12410,7 +12510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7ee3e6d-1dd4-4cd3-bc64-f89d2d08eba2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR015"
 			(at 151.13 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12470,7 +12570,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR050")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12587,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb9cd77f-cfd1-4c7d-938c-5669e5781796")
-		(property "Reference" "C34"
+		(property "Reference" "C9"
 			(at 84.582 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12551,7 +12651,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C34")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12568,7 +12668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2a1680d-c6ea-4e67-aa01-537f280c6ee5")
-		(property "Reference" "C38"
+		(property "Reference" "C3"
 			(at 33.782 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12632,7 +12732,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C38")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12650,7 +12750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c62485-c414-47bc-8d3e-2bb117630b21")
-		(property "Reference" "U11"
+		(property "Reference" "U3"
 			(at 91.44 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12670,7 +12770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Texas_DSBGA-28_1.9x3mm_Layout4x7_P0.4mm"
+		(property "Footprint" "Package_BGA:Texas_DSBGA-9_1.4715x1.4715mm_Layout3x3_P0.5mm"
 			(at 91.44 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12705,114 +12805,37 @@
 				)
 			)
 		)
-		(pin "1"
+		(pin "A3"
 			(uuid "3146f6a3-546f-4b37-818f-35cae5dbe79c")
 		)
-		(pin "2"
+		(pin "A1"
 			(uuid "3e25604f-9ec3-4c8d-9ac7-e12e4ed38072")
 		)
-		(pin "3"
+		(pin "A2"
 			(uuid "36adf446-c0e7-4cd0-aeac-bba5d7cb85c9")
 		)
-		(pin "4"
+		(pin "B1"
 			(uuid "5f87e995-2ed6-4e40-98a4-d467997ea710")
 		)
-		(pin "5"
+		(pin "B2"
 			(uuid "c56da261-59a5-4b84-b8c1-7e77973344de")
 		)
-		(pin "6"
+		(pin "C1"
 			(uuid "92bc9698-7e3b-4a78-825d-48958a75e5c2")
 		)
-		(pin "8"
+		(pin "B3"
 			(uuid "4fd01bb7-104b-4e82-9bae-6904e1cc3f5c")
 		)
-		(pin "7"
+		(pin "C3"
 			(uuid "19dbe68e-89a7-4e78-b66f-aa1e16987e43")
 		)
-		(pin "9"
+		(pin "C2"
 			(uuid "fc77928f-c244-434e-949c-6ce61a669c2b")
 		)
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 68.58 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db9a0b07-63df-4dc3-8597-2dccdfeed670")
-		(property "Reference" "#FLG03"
-			(at 68.58 164.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 62.3513 163.322 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 68.58 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23c09f42-d52a-4284-8748-c5414edcf6e8")
-		)
-		(instances
-			(project "USB-C_3.2gen1"
-				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG03")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12829,7 +12852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfe283a1-fdcd-4e40-8a70-651577870f66")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR018"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12889,7 +12912,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR024")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12907,7 +12930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e07b62f1-646b-43ae-8b67-9bf5c9cad4f9")
-		(property "Reference" "U14"
+		(property "Reference" "U1"
 			(at 58.42 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12981,7 +13004,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "U14")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12999,7 +13022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e71422df-d820-4e98-9bd3-bccb7a815582")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 27.94 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13130,7 +13153,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13147,7 +13170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebd4c5b6-bef2-42e1-bae6-f8270a30fdb0")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 97.79 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13211,7 +13234,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13228,7 +13251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef99ff3c-682c-4d13-b667-8080e6be4e44")
-		(property "Reference" "C21"
+		(property "Reference" "C5"
 			(at 66.04 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,7 +13315,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C21")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13310,7 +13333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f080dd42-a5ab-4967-9dab-ed5bd01bf03b")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG06"
 			(at 231.14 61.595 0)
 			(hide yes)
 			(show_name no)
@@ -13370,7 +13393,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG08")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -13387,7 +13410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f29d13b3-a414-458a-8dff-9e4561b2122e")
-		(property "Reference" "C39"
+		(property "Reference" "C8"
 			(at 82.042 57.404 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13451,7 +13474,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C39")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13468,7 +13491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5d99389-0128-49b7-9702-c7615d8bec53")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR020"
 			(at 276.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13528,7 +13551,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR031")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13622,7 +13645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9420f1a-602e-4cbf-b484-c5d4fe5ac545")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR012"
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13682,7 +13705,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR034")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13699,7 +13722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faf58789-a1f0-47f0-a9c9-4c47f9e462d2")
-		(property "Reference" "C6"
+		(property "Reference" "C18"
 			(at 241.3 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13763,7 +13786,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "C6")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -13780,7 +13803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd5dfde5-d245-43ed-8ba0-7c7d69882146")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR02"
 			(at 25.4 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13840,7 +13863,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#PWR036")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13858,7 +13881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff59843a-57f6-4d73-9e8a-d6155c981635")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG03"
 			(at 219.71 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -13918,7 +13941,7 @@
 		(instances
 			(project "USB-C_3.2gen1"
 				(path "/d3213dd5-4179-4001-95f6-ec74c0d8f8ed/3e398fdc-1593-480c-a6b2-1cbff8b90dcb"
-					(reference "#FLG013")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
